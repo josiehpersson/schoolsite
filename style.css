@@ -84,5 +84,42 @@
 .featureHeading{
     justify-content: center;
     display: flex;
+    margin:40px 0 40px 0}
+
+.iconButton{
+    border-radius: 50%;
+    background:linear-gradient(90deg, #FF00B8 0%, #00A3FF 100%);
+    width: 120px;
+    height: 70px;
+    margin-right: 16px;
+
 }
 
+.iconButton >img{
+    width: 55px;
+    height: 55px;
+}
+
+.Lådor-med-klasser-box{
+    display: flex;
+    padding: 20px;
+}
+
+.Lådor-med-klasser{
+    display: flex;
+    margin: 0 30px 0 30px;
+}
+
+.Lådor-med-klasser-box >div > h6{
+    color:#00A3FF;
+}
+
+@media only screen and (max-width: 700px){
+    .Lådor-med-klasser{
+        flex-direction: column-reverse;
+    }
+    .iconButton{
+        height: 70px;
+        width: 70px;
+    }
+}
