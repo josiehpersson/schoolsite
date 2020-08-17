@@ -1,3 +1,26 @@
+.color-stripes {
+    width: 100vw;
+    height: 2vh;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.color1, .color2, .color3, .color4 {
+    height: 100%;
+    width: 100%;
+}
+.color1 {
+    background:#00A3FF;
+
+}
+.color2 {
+    background:linear-gradient(90deg, #00A3FF 0%, #FF00B8 100%);
+}
+.color3 {
+    background:#FF00B8;
+}
+.color4 {
+    background:linear-gradient(90deg, #FF00B8 0%, #FFA800 100%);
+}
 .start-container {
     width: 100%;
     height: 100%;
