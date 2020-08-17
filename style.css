@@ -34,3 +34,16 @@
 .SScarousel-caption {
     background: rgba(0, 0, 0, 0.6);
 }
+
+.featureHeading > h2{
+    font-size: 40pt;
+    background: -webkit-linear-gradient(#00A3FF, #FF00B8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.featureHeading{
+    justify-content: center;
+    display: flex;
+}
+
