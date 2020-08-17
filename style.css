@@ -1,7 +1,7 @@
 /*FÄRGKOLUMNER*/
 
 .color-stripes {
-    width: 100vw;
+    width: 100%;
     height: 2vh;
     display: flex;
     flex-flow: row nowrap;
@@ -25,6 +25,38 @@
 }
 .color5 {
    background: #FFA800;
+}
+
+/*NAVBAR*/
+.SSnavbar {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.navbar-link-container {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.navlink-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.SSlogo {
+    height: 100%;
+    width: auto;
+}
+
+.SSnav-icon {
+    height: 36px;
+    width: auto;
 }
 
 /*START CONTAINER*/
