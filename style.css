@@ -54,3 +54,19 @@
     display: flex;
 }
 
+.iconButton{
+    border-radius: 50%;
+    background:linear-gradient(90deg, #FF00B8 0%, #FFA800 100%);
+    width: 70px;
+    height: 70px;
+
+}
+
+.iconButton >img{
+    width: 35px;
+    height: 35px;
+}
+
+.Lådor-med-klasser-box{
+    display: flex;
+}
