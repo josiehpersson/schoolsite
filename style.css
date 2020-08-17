@@ -4,7 +4,7 @@
     display: flex;
     flex-flow: row nowrap;
 }
-.color1, .color2, .color3, .color4 {
+.color1, .color2, .color3, .color4, .color5 {
     height: 100%;
     width: 100%;
 }
@@ -20,6 +20,10 @@
 }
 .color4 {
     background:linear-gradient(90deg, #FF00B8 0%, #FFA800 100%);
+}
+
+.color5 {
+   background: #FFA800;
 }
 .start-container {
     width: 100%;
