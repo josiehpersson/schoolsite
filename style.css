@@ -189,3 +189,50 @@
     width: 150px;
     border-radius: 75px;
 }
+
+/*FUN FACTS*/
+
+.SSjumbotron-fun-facts {
+    background: url("img/family.jpg");
+    background-size: 100%;
+    background-position: bottom left;
+    height: 500px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.facts-container {
+    width: 25%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.information-circle {
+    border: 2px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    font-size: 150%;
+    color: white;
+}
+
+.funfacts-text {
+    margin-top: 10px;
+background: #FFA800;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+padding: 10px 10px 0 10px;
+font-size: 75%;
+border-radius: 10px;
+}
