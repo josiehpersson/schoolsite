@@ -188,3 +188,28 @@
     width: 150px;
     border-radius: 75px;
 }
+
+/*Classes*/
+.classImg{
+width:200px;
+object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.ClassCard{
+display:flex;
+width: 350px;
+    height: 220px;
+    border-radius:20px;
+}
+
+.classInfo{
+width:100%;
+background:linear-gradient(90deg, #FF00B8 0%, #FFA800 100%);
+padding:10px;
+border-radius: 0 10px 10px 0;
+}
+
+.classInfo >p{
+font-size:8pt;
+}
