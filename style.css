@@ -300,8 +300,25 @@ border-radius: 10px;
     width: 100px;
 }
 
+.SS-form-icon-container {
+    background-color: transparent !important;
+    border-left-color: white !important;
+} 
+.SS-form-input {
+    border-right-color: white !important;
+}
+
+.form-icon-1 {
+    color: #FF00B8;
+}
+
+.form-icon-2 {
+    color: #00A3FF;
+}
+
 .send-btn {
     background-color: #FFA800 !important;
+    color: white !important;
     width: 40%;
     margin-right: 0;
     margin-left: auto;
