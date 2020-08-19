@@ -240,3 +240,8 @@ border-radius: 10px;
 }
 
 /*CONTACT-FORM*/
+.contact-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
