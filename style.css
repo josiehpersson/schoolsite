@@ -164,3 +164,28 @@
         align-items: center;
     }
 }
+
+/*TEACHERS*/
+
+.SSjumbotron {
+    background:linear-gradient(90deg, #FF00B8 0%, #FFA800 100%);
+    height: 300px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.teacher-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.teacher-picture {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
