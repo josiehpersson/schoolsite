@@ -73,9 +73,9 @@
 .SScarousel-caption {
     background: rgba(0, 0, 0, 0.6);
 }
-
+/* feature teacher */
 .featureHeading > h2{
-    font-size: 40pt;
+    font-size: 25pt;
     background: -webkit-linear-gradient(#00A3FF, #FF00B8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -114,12 +114,53 @@
     color:#00A3FF;
 }
 
+/* infomation section */
+.InformationContainer{
+    text-align: center;
+    color:white;
+    background:linear-gradient(90deg, #FF00B8 0%, #FFA800 100%);
+    padding:50px;
+}
+.PhoneIcon{
+    width:50px;
+    height:50px;
+}
+
+/* img gallery */
+
+.row-img-gallery{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    align-items: center;
+
+}
+.img-img-gallery{
+    width:320px;
+    height:320px;
+}
+
+.img-img-gallery >img{
+    object-fit: cover; 
+    width:100%;
+    height:100%; 
+    border-radius: 5px;
+}
+@media only screen and (max-width: 999px){
+.img-img-gallery {
+    width: 100%;
+    height: 100%;
+}
+}
 @media only screen and (max-width: 700px){
     .Lådor-med-klasser{
-        flex-direction: column-reverse;
-    }
+        flex-direction: column;    }
     .iconButton{
         height: 70px;
         width: 70px;
+    }
+    .row-img-gallery{
+        flex-direction: column;
+        align-items: center;
     }
 }
