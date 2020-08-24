@@ -1,200 +1,208 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 /*FÄRGKOLUMNER*/
 
 .color-stripes {
-    width: 100%;
-    height: 2vh;
-    display: flex;
-    flex-flow: row nowrap;
+  width: 100%;
+  height: 2vh;
+  display: flex;
+  flex-flow: row nowrap;
 }
-.color1, .color2, .color3, .color4, .color5 {
-    height: 100%;
-    width: 100%;
+.color1,
+.color2,
+.color3,
+.color4,
+.color5 {
+  height: 100%;
+  width: 100%;
 }
 .color1 {
-    background:#00A3FF;
-
+  background: #00a3ff;
 }
 .color2 {
-    background:linear-gradient(90deg, #00A3FF 0%, #FF00B8 100%);
+  background: linear-gradient(90deg, #00a3ff 0%, #ff00b8 100%);
 }
 .color3 {
-    background:#FF00B8;
+  background: #ff00b8;
 }
 .color4 {
-    background:linear-gradient(90deg, #FF00B8 0%, #FFA800 100%);
+  background: linear-gradient(90deg, #ff00b8 0%, #ffa800 100%);
 }
 .color5 {
-   background: #FFA800;
+  background: #ffa800;
 }
 
 /*NAVBAR*/
 .SSnavbar {
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 .navbar-link-container {
-    width: 100%;
-    height: inherit;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
 }
 .navlink-container {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .SSlogo {
-    height: 100%;
-    width: auto;
+  height: 100%;
+  width: auto;
 }
 
 .SSnav-icon {
-    height: 36px;
-    width: auto;
+  height: 36px;
+  width: auto;
 }
 
 /*START CONTAINER*/
 .start-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-flow: column nowrap;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
 }
- /*CAROUSEL*/
+/*CAROUSEL*/
 .SScarousel-img {
-    height: 500px;
+  height: 500px;
 }
 .SScarousel-caption {
-    background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6);
 }
 /* feature teacher */
-.featureHeading > h2{
-    font-size: 25pt;
-    background: -webkit-linear-gradient(#00A3FF, #FF00B8);
+.featureHeading > h2 {
+  font-size: 25pt;
+  background: -webkit-linear-gradient(#00a3ff, #ff00b8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.featureHeading{
-    justify-content: center;
-    display: flex;
-    margin:40px 0 40px 0}
-
-.iconButton{
-    border-radius: 50%;
-    width: 120px;
-    height: 70px;
-    margin-right: 16px;
-
+.featureHeading {
+  justify-content: center;
+  display: flex;
+  margin: 40px 0 40px 0;
 }
 
-.iconButton >img{
-    width: 55px;
-    height: 55px;
+.iconButton {
+  border-radius: 50%;
+  width: 120px;
+  height: 70px;
+  margin-right: 16px;
 }
 
-.Lådor-med-klasser-box{
-    display: flex;
-    padding: 20px;
+.iconButton > img {
+  width: 55px;
+  height: 55px;
 }
 
-.Lådor-med-klasser{
-    display: flex;
-    margin: 0 30px 0 30px;
+.Lådor-med-klasser-box {
+  display: flex;
+  padding: 20px;
 }
 
-.Lådor-med-klasser-box >div > h6{
-    color:#00A3FF;
+.Lådor-med-klasser {
+  display: flex;
+  margin: 0 30px 0 30px;
+}
+
+.Lådor-med-klasser-box > div > h6 {
+  color: #00a3ff;
 }
 
 /* infomation section */
-.InformationContainer{
-    text-align: center;
-    color:white;
-    background:linear-gradient(90deg, #FF00B8 0%, #FFA800 100%);
-    padding:50px;
+.InformationContainer {
+  text-align: center;
+  color: white;
+  background: linear-gradient(90deg, #ff00b8 0%, #ffa800 100%);
+  padding: 50px;
 }
-.PhoneIcon{
-    width:50px;
-    height:50px;
+.PhoneIcon {
+  width: 50px;
+  height: 50px;
 }
 
 /* img gallery */
 
-.row-img-gallery{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 40px;
-    align-items: center;
-
+.row-img-gallery {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  align-items: center;
 }
-.img-img-gallery{
-    width:320px;
-    height:320px;
-}
-
-.img-img-gallery >img{
-    object-fit: cover; 
-    width:100%;
-    height:100%; 
-    border-radius: 5px;
-}
-@media only screen and (max-width: 999px){
 .img-img-gallery {
+  width: 320px;
+  height: 320px;
+}
+
+.img-img-gallery > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 999px) {
+  .img-img-gallery {
     width: 100%;
     height: 100%;
+  }
 }
-}
-@media only screen and (max-width: 700px){
-    .Lådor-med-klasser{
-        flex-direction: column;    }
-    .iconButton{
-        height: 70px;
-        width: 70px;
-    }
-    .row-img-gallery{
-        flex-direction: column;
-        align-items: center;
-    }
+@media only screen and (max-width: 700px) {
+  .Lådor-med-klasser {
+    flex-direction: column;
+  }
+  .iconButton {
+    height: 70px;
+    width: 70px;
+  }
+  .row-img-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*TEACHERS*/
 
 .SSjumbotron {
-    background:linear-gradient(90deg, #FF00B8 0%, #FFA800 100%);
-    height: 300px;
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 10px;
+  background: linear-gradient(90deg, #ff00b8 0%, #ffa800 100%);
+  height: 300px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
 }
 
 .teacher-container {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 .teacher-picture {
-    height: 150px;
-    width: 150px;
-    border-radius: 75px;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
 }
 
-
 /*Classes*/
-.classImg{
-width:200px;
-object-fit: cover;
-    border-radius: 10px 0 0 10px;
+.classImg {
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
 }
 
 .ClassCard{
@@ -225,129 +233,162 @@ position: relative;
     justify-content: space-around;
 }
 
-.classInfo{
-width:100%;
-background:linear-gradient(90deg, #FF00B8 0%, #FFA800 100%);
-padding:10px;
-border-radius: 0 10px 10px 0;
+.classInfo {
+  width: 100%;
+  background: linear-gradient(90deg, #ff00b8 0%, #ffa800 100%);
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
 }
 
-.classInfo >p{
-font-size:8pt;
+.classInfo > p {
+  font-size: 8pt;
 }
 
-.lastClassCard{
-    font-display: flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
+.lastClassCard {
+  font-display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 /*FUN FACTS*/
 
 .SSjumbotron-fun-facts {
-    background: url("img/family.jpg");
-    background-size: 100%;
-    background-position: bottom left;
-    height: 500px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    margin-top: 10px;
+  background: url('img/family.jpg');
+  background-size: 100%;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin-top: 10px;
 }
 
 .facts-container {
-    width: 25%;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+  width: 25%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 .information-circle {
-    border: 2px solid white;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  border: 2px solid white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .number {
-    font-size: 150%;
-    color: white;
+  font-size: 150%;
+  color: white;
 }
 
 .funfacts-text {
-    margin-top: 10px;
-background: #FFA800;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-display: flex;
-justify-content: center;
-align-items: center;
-color: white;
-padding: 10px 10px 0 10px;
-font-size: 75%;
-border-radius: 10px;
+  margin-top: 10px;
+  background: #ffa800;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  color: white;
+  padding: 10px 10px 0 10px;
+  font-size: 75%;
+  border-radius: 10px;
 }
+
 
 /*CONTACT-FORM*/
 .contact-container {
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
 }
 
 .contact-container h2 {
-    color: #FFA800 ;
+  color: #ffa800;
 }
 
 .contact-info-container {
-    width: 40%;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+  width: 40%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-info-form-container {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-evenly;
-
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
 }
 
 .SSlogo-form {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 
 .SS-form-icon-container {
-    background-color: transparent !important;
-    border-left-color: white !important;
-} 
+  background-color: transparent !important;
+  border-left-color: white !important;
+}
 .SS-form-input {
-    border-right-color: white !important;
+  border-right-color: white !important;
 }
 
 .form-icon-1 {
-    color: #FF00B8;
+  color: #ff00b8;
 }
 
 .form-icon-2 {
-    color: #00A3FF;
+  color: #00a3ff;
 }
 
 .send-btn {
-    background-color: #FFA800 !important;
-    color: white !important;
-    width: 40%;
-    margin-right: 0;
-    margin-left: auto;
+  background-color: #ffa800 !important;
+  color: white !important;
+  width: 40%;
+  margin-right: 0;
+  margin-left: auto;
 }
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 600px) {
+    .SScarousel-img {
+        height: 50vh;
+    }
+    .information-circle {
+      height: 50px;
+      width: 50px;
+      border-radius: 25px;
+    }
+    .number {
+      margin-top: 3vh;
+      font-size: 100%;
+    }
+  
+    .funfacts-text {
+      height: 4vh;
+      padding: 2px 2px 0px 2px;
+      border-radius: 2px;
+      font-size: 50%;
+      transform: scale(0.5);
+    }
+    .SSjumbotron {
+        height: 50vh;
+    }
+    .teacher-info {
+        font-size: 75%;
+    }
+    .teacher-picture {
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+    }
+  }
