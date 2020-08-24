@@ -204,6 +204,19 @@ width: 350px;
 height: 220px;
 border-radius:20px;
 margin: 20px;
+position: relative;
+}
+
+.date-box-class-card{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #FFA800;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10pt;
+    position: absolute;
+    left: 16px;
 }
 
 .flex-container-class-card{
