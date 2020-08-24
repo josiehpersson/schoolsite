@@ -223,19 +223,32 @@ body {
   border-radius: 10px 0 0 10px;
 }
 
-.ClassCard {
-  color: white;
-  display: flex;
-  width: 350px;
-  height: 220px;
-  border-radius: 20px;
-  margin: 20px;
+.ClassCard{
+color:white;
+display:flex;
+width: 350px;
+height: 220px;
+border-radius:20px;
+margin: 20px;
+position: relative;
 }
 
-.card-classes-row {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
+.date-box-class-card{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #FFA800;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10pt;
+    position: absolute;
+    left: 16px;
+}
+
+.flex-container-class-card{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .classInfo {
