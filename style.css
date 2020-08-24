@@ -206,10 +206,10 @@ border-radius:20px;
 margin: 20px;
 }
 
-.card-classes-row{
+.flex-container-class-card{
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    padding:20px;
 }
 
 .classInfo{
