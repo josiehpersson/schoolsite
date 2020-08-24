@@ -69,22 +69,22 @@ body {
 }
 
 .shoppingcart-dot {
-    height: 20px;
-    width: 20px;
-    border-radius: 10px;
-    background-color: #FF00B8;
-    position: absolute;
-    z-index: 2;
-    top: auto;
-    bottom: 20px;
-    right: 35px;
-    text-align: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: #ff00b8;
+  position: absolute;
+  z-index: 2;
+  top: auto;
+  bottom: 20px;
+  right: 35px;
+  text-align: center;
 }
 
 #shoppingcart-number {
-    color: white;
-    font-size: 50%;
-    margin-top: 4px;
+  color: white;
+  font-size: 50%;
+  margin-top: 4px;
 }
 /*START CONTAINER*/
 .start-container {
@@ -223,32 +223,32 @@ body {
   border-radius: 10px 0 0 10px;
 }
 
-.ClassCard{
-color:white;
-display:flex;
-width: 350px;
-height: 220px;
-border-radius:20px;
-margin: 20px;
-position: relative;
+.ClassCard {
+  color: white;
+  display: flex;
+  width: 350px;
+  height: 220px;
+  border-radius: 20px;
+  margin: 20px;
+  position: relative;
 }
 
-.date-box-class-card{
-    width: 45px;
-    height: 45px;
-    border-radius: 10px;
-    background-color: #FFA800;
-    text-align: center;
-    font-weight: bold;
-    font-size: 10pt;
-    position: absolute;
-    left: 16px;
+.date-box-class-card {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #ffa800;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10pt;
+  position: absolute;
+  left: 16px;
 }
 
-.flex-container-class-card{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.flex-container-class-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .classInfo {
@@ -307,15 +307,12 @@ position: relative;
 
 .funfacts-text {
   margin-top: 10px;
-  background: #ffa800;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: center;
   color: white;
   padding: 10px 10px 0 10px;
   font-size: 75%;
   border-radius: 10px;
 }
-
 
 /*CONTACT-FORM*/
 .contact-container {
@@ -378,39 +375,39 @@ position: relative;
 
 /*RESPONSIVE*/
 @media only screen and (max-width: 600px) {
-    .SScarousel-img {
-        height: 50vh;
-    }
-    .information-circle {
-      height: 50px;
-      width: 50px;
-      border-radius: 25px;
-    }
-    .number {
-      margin-top: 3vh;
-      font-size: 100%;
-    }
-  
-    .funfacts-text {
-        width: 100%;
-      height: auto;
-      padding: 2px 2px 0px 2px;
-      border-radius: 2px;
-      transform: scale(0.5);
-    }
-
-    .fun-text {
-        margin-top: 2vh;
-    }
-    .SSjumbotron {
-        height: 50vh;
-    }
-    .teacher-info {
-        font-size: 75%;
-    }
-    .teacher-picture {
-        height: 50px;
-        width: 50px;
-        border-radius: 25px;
-    }
+  .SScarousel-img {
+    height: 50vh;
   }
+  .information-circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+  }
+  .number {
+    margin-top: 3vh;
+    font-size: 100%;
+  }
+
+  .funfacts-text {
+    width: 100%;
+    height: auto;
+    padding: 2px 2px 0px 2px;
+    border-radius: 2px;
+    transform: scale(0.5);
+  }
+
+  .fun-text {
+    margin-top: 2vh;
+  }
+  .SSjumbotron {
+    height: 50vh;
+  }
+  .teacher-info {
+    font-size: 75%;
+  }
+  .teacher-picture {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+  }
+}
