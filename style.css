@@ -115,8 +115,8 @@ body {
 }
 
 .featureHeading > img{
-    height:45px;
-    width:45px;
+    height:35px;
+    width:35px;
 }
 
 .iconButton {
@@ -124,6 +124,9 @@ body {
   width: 120px;
   height: 70px;
   margin-right: 16px;
+  -webkit-box-shadow: 10px 10px 44px -11px rgba(0,0,0,0.37);
+-moz-box-shadow: 10px 10px 44px -11px rgba(0,0,0,0.37);
+box-shadow: 10px 10px 44px -11px rgba(0,0,0,0.37);
 }
 
 .iconButton > img {
