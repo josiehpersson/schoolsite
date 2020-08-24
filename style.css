@@ -68,6 +68,24 @@ body {
   width: auto;
 }
 
+.shoppingcart-dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #FF00B8;
+    position: absolute;
+    z-index: 2;
+    top: auto;
+    bottom: 1px;
+    right: 10px;
+    text-align: center;
+}
+
+#shoppingcart-number {
+    color: white;
+    font-size: 50%;
+    margin-top: 4px;
+}
 /*START CONTAINER*/
 .start-container {
   width: 100%;
@@ -361,11 +379,15 @@ body {
     }
   
     .funfacts-text {
-      height: 4vh;
+        width: 100%;
+      height: auto;
       padding: 2px 2px 0px 2px;
       border-radius: 2px;
-      font-size: 50%;
       transform: scale(0.5);
+    }
+
+    .fun-text {
+        margin-top: 2vh;
     }
     .SSjumbotron {
         height: 50vh;
