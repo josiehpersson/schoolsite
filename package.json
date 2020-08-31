@@ -1,0 +1,28 @@
+{
+  "name": "schoolsite",
+  "version": "1.0.0",
+  "description": "G uppgift JS2",
+  "main": "script.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josiehpersson/schoolsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josiehpersson/schoolsite/issues"
+  },
+  "homepage": "https://github.com/josiehpersson/schoolsite#readme"
+}
