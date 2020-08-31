@@ -4,7 +4,9 @@
   "description": "G uppgift JS2",
   "main": "script.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemo": "^1.0.0",
+    "nodemon": "^2.0.4"
   },
   "devDependencies": {
     "eslint": "^7.7.0",
@@ -13,6 +15,7 @@
   },
   "scripts": {
     "lint": "eslint .",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,4 +28,6 @@
     "url": "https://github.com/josiehpersson/schoolsite/issues"
   },
   "homepage": "https://github.com/josiehpersson/schoolsite#readme"
+  
 }
+
