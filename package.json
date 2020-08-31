@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "G uppgift JS2",
   "main": "script.js",
+<<<<<<< HEAD
   "dependencies": {
     "express": "^4.17.1",
     "nodemo": "^1.0.0",
@@ -16,6 +17,10 @@
   "scripts": {
     "lint": "eslint .",
     "start": "nodemon app.js",
+=======
+  "scripts": {
+    "lint": "eslint .",
+>>>>>>> master
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,7 +32,20 @@
   "bugs": {
     "url": "https://github.com/josiehpersson/schoolsite/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/josiehpersson/schoolsite#readme"
   
 }
 
+=======
+  "homepage": "https://github.com/josiehpersson/schoolsite#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
+>>>>>>> master
