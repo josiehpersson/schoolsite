@@ -2,7 +2,7 @@
   "name": "schoolsite",
   "version": "1.0.0",
   "description": "G uppgift JS2",
-  "main": "script.js",
+  "main": "app.js",
   "scripts": {
     "lint": "eslint .",
     "start": "nodemon app.js",
