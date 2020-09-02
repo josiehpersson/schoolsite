@@ -1,12 +1,12 @@
 const express = require('express');
-const teachersController = require('../Controllers/teachersController');
+const teachersController = require('../controllers/teachersController');
 
 const routes = () => {
 const teacherRouter = express.Router();
 const controller = teachersController();
-teacherRouter.route('/TeacherId')
+teacherRouter.route('/Teachers')
  .get(controller.get);
-teacherRouter.route('/TeacherId/:Id')
+teacherRouter.route('/Teachers/:Id')
  .get(controller.get);
 return teacherRouter;
 };

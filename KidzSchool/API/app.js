@@ -18,9 +18,6 @@ const bodyParser = require('body-parser');
 const sql = require('mssql');
 const config = require('./config');
 
-const teacherRouter = require('./Routers/teacherRouter')();
-app.use('/schoolkidz', teacherRouter);
-
 app.use(cors());
 //adds the cors middleware
 app.options('*', cors());
@@ -32,6 +29,8 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 //specifies that the parser presents data in JSON format
 
+const teacherRouter = require('./routes/teacherRouter')();
+app.use('/api', teacherRouter);
 
 app.server = app.listen(port, () => {
     console.log(`running on port ${port}`);
