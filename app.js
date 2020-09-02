@@ -19,7 +19,7 @@ const sql = require('mssql');
 const config = require('./Controllers/config');
 
 const teacherRouter = require('./Routers/teacherRouter')();
-app.use('/api', teacherRouter);
+app.use('/schoolkidz', teacherRouter);
 
 app.use(cors());
 //adds the cors middleware
