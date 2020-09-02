@@ -8,7 +8,7 @@ teacherRouter.route('/TeacherId')
  .get(controller.get);
 teacherRouter.route('/TeacherId/:Id')
  .get(controller.get);
-return actorRouter;
+return teacherRouter;
 };
 
 

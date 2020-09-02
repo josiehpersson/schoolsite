@@ -16,7 +16,7 @@ const bodyParser = require('body-parser');
 
 
 const sql = require('mssql');
-const config = require('./Controllers/config');
+const config = require('./config');
 
 const teacherRouter = require('./Routers/teacherRouter')();
 app.use('/schoolkidz', teacherRouter);
