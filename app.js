@@ -18,6 +18,8 @@ const bodyParser = require('body-parser');
 const sql = require('mssql');
 const config = require('./Controllers/config');
 
+const actorRouter = require('./Routers/actorRouter')();
+app.use('/api', actorRouter);
 
 app.use(cors());
 //adds the cors middleware
