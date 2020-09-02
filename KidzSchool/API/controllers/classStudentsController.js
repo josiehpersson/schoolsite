@@ -9,7 +9,7 @@ classStudentsController = () => {
     //adding controllers get-function
 get = async (req, res) => {
     try {
-        let query = req.params.Id > 0 ? `EXEC GetClassStudent ${req.params.Id}` : 'EXEC GetClassStudents';
+        let query = req.params.Id > 0 ? `EXEC GetClassStudents ${req.params.Id}` : 'EXEC GetClassStudents';
         //skapar en förfrågan som kollar om vi lagt med ett ID i förfrågan eller ej
         //Om ID är angett så "hämta actor med det ID:et" annars "hämta alla actors"
         await sql.connect(config);
