@@ -3,7 +3,7 @@ const studentsController = require('../controllers/studentsController');
 
 const routes = () => {
 const studentRouter = express.Router();
-const controller = studentController();
+const controller = studentsController();
 teacherRouter.route('/Students')
  .get(controller.get);
 teacherRouter.route('/Students/:Id')
