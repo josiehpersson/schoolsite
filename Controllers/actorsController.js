@@ -12,6 +12,10 @@ get = async (req, res) => {
         let query = req.params.Id > 0 ? `EXEC GetActor ${req.params.Id}` : 'EXEC GetActors';
         //skapar en förfrågan som kollar om vi lagt med ett ID i förfrågan eller ej
         //Om ID är angett så "hämta actor med det ID:et" annars "hämta alla actors"
+        await sql.connect(config);
+        //för att vänta in anslutning till databasen i Azure
+        const result = await sql.query(query);
+
     }
     catch (err) {
     return res.status(404);
