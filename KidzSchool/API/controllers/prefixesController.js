@@ -5,7 +5,7 @@ const sql = require('mssql');
 //database provider reuses a global instance of mssql every time it's added as a req.
 const config = require('../config');
 
-teachersController = () => {
+prefixesController = () => {
     //adding controllers get-function
 get = async (req, res) => {
     try {
