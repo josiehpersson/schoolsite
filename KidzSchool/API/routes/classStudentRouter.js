@@ -4,9 +4,9 @@ const classStudentsController = require('../controllers/classStudentsController'
 const routes = () => {
 const classStudentRouter = express.Router();
 const controller = classStudentsController();
-teacherRouter.route('/classStudents')
+classStudentRouter.route('/classStudents')
  .get(controller.get);
-teacherRouter.route('/classStudents/:Id')
+classStudentRouter.route('/classStudents/:Id')
  .get(controller.get);
 return classStudentRouter;
 };
