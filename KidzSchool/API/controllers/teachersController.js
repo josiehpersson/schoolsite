@@ -16,7 +16,7 @@ get = async (req, res) => {
         //för att vänta in anslutning till databasen i Azure
         const result = await sql.query(query);
         
-        return result.recordset
+        return res.json(result.recordset);
     }
     catch (err) {
     return res.status(404);
