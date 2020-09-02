@@ -2,7 +2,7 @@
   "name": "schoolsite",
   "version": "1.0.0",
   "description": "G uppgift JS2",
-  "main": "script.js",
+  "main": "app.js",
   "scripts": {
     "lint": "eslint .",
     "start": "nodemon app.js",
@@ -23,6 +23,10 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mssql": "^6.2.1",
+<<<<<<< HEAD
+=======
+    "nodemon": "^2.0.4",
+>>>>>>> master
     "tedious": "^9.2.1"
   },
   "devDependencies": {
