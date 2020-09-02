@@ -104,6 +104,7 @@ body {
 .featureHeading > h2 {
   font-size: 25pt;
   background: #ff00b8;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
