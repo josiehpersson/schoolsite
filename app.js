@@ -16,7 +16,7 @@ const bodyParser = require('body-parser');
 
 
 const sql = require('mssql');
-const config = require()
+const config = require('./Controllers/config');
 
 
 app.use(cors());
