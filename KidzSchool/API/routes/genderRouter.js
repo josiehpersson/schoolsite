@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('@sindresorhus/routes/node_modules/express');
 const gendersController = require('../controllers/gendersController');
 
 const routes = () => {
