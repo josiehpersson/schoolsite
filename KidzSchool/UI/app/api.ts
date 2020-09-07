@@ -20,7 +20,7 @@ export const getClasses = async () => {
 
 const get = async(uri:string) => {
     try {
-        const result = axios.get('${baseUrl}${uri}');
+        const result = axios.get(`${baseUrl}${uri}`);
         const {data} = await result;
         return data;
     }

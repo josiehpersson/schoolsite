@@ -2,21 +2,18 @@ const express = require('express');
 //adding express 
 //a minimal, flexible node.jsweb appframework 
 //makes it possible to listen on network ports.
-const app = express();
-//creates app variable that contains an instance of express app, this object configures and runs your API.
-//must be added before any other middleware
-const port = process.env.PORT || 3000;
-//our provided port (3000) + backup enviroment-variable port
 const cors = require('cors');
 //is needed when calling API from other domains.
 //each domain has protection from cross-domain calls for security reasons to precent cross-site-attacks
 const bodyParser = require('body-parser');
 //makes it possible to intercept and modify requests or response objects body
 //with json
+const app = express();
+//creates app variable that contains an instance of express app, this object configures and runs your API.
+//must be added before any other middleware
+const port = process.env.PORT || 3000;
+//our provided port (3000) + backup enviroment-variable port
 
-
-const sql = require('mssql');
-const config = require('./config');
 
 app.use(cors());
 //adds the cors middleware

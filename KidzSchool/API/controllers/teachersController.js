@@ -6,24 +6,26 @@ const sql = require('mssql');
 const config = require('../config');
 
 teachersController = () => {
-    //adding controllers get-function
-get = async (req, res) => {
+  //adding controllers get-function
+  get = async (req, res) => {
     try {
-        let query = req.params.Id > 0 ? `EXEC GetTeacher ${req.params.Id}` : 'EXEC GetTeachers';
-        //skapar en förfrågan som kollar om vi lagt med ett ID i förfrågan eller ej
-        //Om ID är angett så "hämta actor med det ID:et" annars "hämta alla actors"
-        await sql.connect(config);
-        //för att vänta in anslutning till databasen i Azure
-        const result = await sql.query(query);
-        
-        return res.json(result.recordset);
-    }
-    catch (err) {
-    return res.status(404);
-    }
-   };
+      let query =
+        req.params.Id > 0
+          ? `EXEC GetTeacher ${req.params.Id}`
+          : 'EXEC GetTeachers';
+      //skapar en förfrågan som kollar om vi lagt med ett ID i förfrågan eller ej
+      //Om ID är angett så "hämta actor med det ID:et" annars "hämta alla actors"
+      await sql.connect(config);
+      //för att vänta in anslutning till databasen i Azure
+      const result = await sql.query(query);
 
-   return {get}
+      return res.json(result.recordset);
+    } catch (err) {
+      return res.status(404);
+    }
+  };
+
+  return { get };
 };
-   
+
 module.exports = teachersController;
