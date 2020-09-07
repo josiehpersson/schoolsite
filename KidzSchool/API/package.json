@@ -4,8 +4,7 @@
   "description": "G uppgift JS2",
   "main": "app.js",
   "scripts": {
-    "lint": "eslint .",
-    "start": "nodemon app.js",
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,23 +12,24 @@
     "url": "git+https://github.com/josiehpersson/schoolsite.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/josiehpersson/schoolsite/issues"
   },
   "homepage": "https://github.com/josiehpersson/schoolsite#readme",
   "dependencies": {
+    "axios": "^0.20.0",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
     "common-tags": "^1.8.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mssql": "^6.2.1",
     "nodemon": "^2.0.4",
     "tedious": "^9.2.1"
-  },
-  "devDependencies": {
-    "eslint": "^7.7.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0"
   },
   "nodemonConfig": {
     "restartable": "rs",
