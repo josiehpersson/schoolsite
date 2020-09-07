@@ -2,10 +2,9 @@
   "name": "schoolsite",
   "version": "1.0.0",
   "description": "G uppgift JS2",
-  "main": "app.js",
+  "main": "app/app.ts",
   "scripts": {
-    "lint": "eslint .",
-    "start": "nodemon app.js",
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
