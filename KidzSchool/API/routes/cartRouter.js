@@ -4,9 +4,9 @@ const cartsController = require('../controllers/cartsController');
 const routes = () => {
 const cartRouter = express.Router();
 const controller = cartsController();
-cartRouter.route('/cart')
+cartRouter.route('/carts')
  .get(controller.get);
-cartRouter.route('/cart/:Id')
+cartRouter.route('/carts/:Id')
  .get(controller.get);
 return cartRouter;
 };

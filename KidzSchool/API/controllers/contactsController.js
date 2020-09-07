@@ -5,11 +5,11 @@ const sql = require('mssql');
 //database provider reuses a global instance of mssql every time it's added as a req.
 const config = require('../config');
 
-classStudentsController = () => {
+contactsController = () => {
     //adding controllers get-function
 get = async (req, res) => {
     try {
-        let query = req.params.Id > 0 ? `EXEC GetClassStudents ${req.params.Id}` : 'EXEC GetClassStudents';
+        let query = req.params.Id > 0 ? `EXEC GetContact ${req.params.Id}` : 'EXEC GetContacts';
         //skapar en förfrågan som kollar om vi lagt med ett ID i förfrågan eller ej
         //Om ID är angett så "hämta actor med det ID:et" annars "hämta alla actors"
         await sql.connect(config);
@@ -26,4 +26,4 @@ get = async (req, res) => {
    return {get}
 };
    
-module.exports = classStudentsController;
+module.exports = contactsController;
