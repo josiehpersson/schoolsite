@@ -2,7 +2,7 @@
   "name": "schoolsite",
   "version": "1.0.0",
   "description": "G uppgift JS2",
-  "main": "app/app.ts",
+  "main": "app.ts",
   "scripts": {
     "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
