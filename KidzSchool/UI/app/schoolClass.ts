@@ -21,24 +21,19 @@ export class SchoolClass {
 
     public html() {
         return `
-        <div class="flex-container-class-card">
-        <div class="contained-class-card">
         <div class="ClassCard">
           <img src="img/schoolchildren.jpg" alt="penna icon" class="classImg">
-          <div class="classInfo">
-            <div class="date-box-class-card">
-              <p>${this.date}</p>
-            </div>
-            <h5>${this.title}</h5>
-            <p><i class="fas fa-calendar-alt"></i> <b>Age ${this.minAge} to ${this.maxAge}  years</b></p>
-            <p><i class="far fa-clock"></i> <b>${this.time} </b></p>
-            <p><i class="fas fa-tag"></i><b>${this.price}</b></p>
-            <p>${this.description} </p>
-            <button type="button" class="btn btn-outline-light">Learn more</button>
+        <div class="classInfo">
+          <div class="date-box-class-card">
+            <p>${this.date}</p>
           </div>
+            <h5>${this.title}</h5>
+            <p><i class="fas fa-calendar-alt"></i> <b>${this.minAge} to ${this.maxAge} years</b></p>
+            <p><i class="far fa-clock"></i> <b>${this.time}</b></p>
+            <p>${this.description}</p>
+            <button type="button" class="btn btn-outline-light">Learn more</button>
         </div>
       </div>
-
         `
     }
 }

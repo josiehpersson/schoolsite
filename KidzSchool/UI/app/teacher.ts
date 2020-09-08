@@ -15,7 +15,7 @@ export class Teacher {
         return `
         <div class="teacher-container">
         <img src="img/teacher2.jpg" class="teacher-picture" alt="teacher2"/>
-        <p class="teacher-info">${this.prefix}. ${this.firstName} ${this.lastName}</p>
+        <p class="teacher-info">${this.prefix} ${this.firstName} ${this.lastName}</p>
       </div>
         `
     }
