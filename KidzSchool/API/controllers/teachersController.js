@@ -10,9 +10,10 @@ teachersController = () => {
   get = async (req, res) => {
     try {
       let query =
-        req.params.Id > 0
-          ? `EXEC GetTeacher ${req.params.Id}`
-          : 'EXEC GetTeachers';
+      req.params.Id > 0
+      ? `EXEC GetTeacher ${req.params.Id}`
+      : 'EXEC GetTeachers';
+      console.log('get:controller', query);
       //skapar en förfrågan som kollar om vi lagt med ett ID i förfrågan eller ej
       //Om ID är angett så "hämta actor med det ID:et" annars "hämta alla actors"
       await sql.connect(config);

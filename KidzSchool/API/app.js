@@ -28,6 +28,8 @@ app.use(bodyParser.json());
 
 const teacherRouter = require('./routes/teacherRouter')();
 app.use('/api', teacherRouter);
+const classRouter = require('./routes/classRouter')();
+app.use('/api', classRouter);
 
 app.server = app.listen(port, () => {
     console.log(`running on port ${port}`);

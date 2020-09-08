@@ -5,10 +5,10 @@ export class Teacher {
     prefix:string;
 
     constructor(teacher:any) {
-        this.id = teacher.id;
-        this.firstName = teacher.firstName;
-        this.lastName = teacher.lastName;
-        this.prefix = teacher.prefix;
+        this.id = teacher.Id;
+        this.firstName = teacher.FirstName;
+        this.lastName = teacher.LastName;
+        this.prefix = teacher.Prefix;
     }
 
     public html() {

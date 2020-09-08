@@ -5,18 +5,18 @@ export class SchoolClass {
     minAge:number;
     maxAge:number;
     description:string;
-    time:number;
-    date:number;
+    time:string;
+    date:Date;
 
     constructor(schoolClass:any) {
         this.id = schoolClass.Id;
-        this.title = schoolClass.title;
-        this.price = schoolClass.price;
-        this.minAge = schoolClass.minAge;
-        this.maxAge = schoolClass.maxAge;
-        this.description = schoolClass.description;
-        this.time = schoolClass.time;
-        this.date = schoolClass.date;
+        this.title = schoolClass.Title;
+        this.price = schoolClass.Price;
+        this.minAge = schoolClass.MinAge;
+        this.maxAge = schoolClass.MaxAge;
+        this.description = schoolClass.Description;
+        this.time = schoolClass.Time;
+        this.date = schoolClass.Date;
     }
 
     public html() {

@@ -4,7 +4,7 @@
   "description": "G uppgift JS2",
   "main": "app.ts",
   "scripts": {
-    "start": "concurrently --kill-others \"tsc -w\" \"nodemon js/app.js\"",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,12 +18,10 @@
   },
   "homepage": "https://github.com/josiehpersson/schoolsite#readme",
   "dependencies": {
-    "concurrently": "^5.3.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mssql": "^6.2.1",
-    "nodemon": "^2.0.4",
-    "typescript": "^3.9.7"
+    "nodemon": "^2.0.4"
   },
   "nodemonConfig": {
     "restartable": "rs",

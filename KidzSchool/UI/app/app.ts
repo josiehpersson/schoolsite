@@ -1,13 +1,13 @@
+import { DbResult } from './dbResult';
+
 const main = async () => {
     try {
             const api = await import('./api');
-            const teacher = await api.getTeachers();
-            const schoolClass = await api.getClasses();
-            console.log(teacher, schoolClass);
+            const result = await api.getData();
             
-            //const html = await import('./html');
-            //html.displayTeachers(teacher.teachers);
-            //html.displayClasses(schoolClass.classes);
+            const html = await import('./html');
+            html.displayTeachers(result.teachers);
+            html.displayClasses(result.schoolClasses);
         } 
     catch (e) {
         console.log(e);

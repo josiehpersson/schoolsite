@@ -3,7 +3,9 @@ import {SchoolClass} from './schoolClass';
 
 export const displayTeachers = (teachers:Array<Teacher>):void => {
     const teachersElement = document.getElementById('teacher-container');
+    console.log('displayTeachers');
     if(teachersElement !== null) {
+        
         teachers.forEach((a:Teacher, idx:number) => {
             teachersElement.innerHTML += a.html();
         });
